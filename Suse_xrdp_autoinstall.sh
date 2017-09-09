@@ -1,0 +1,1 @@
+zypper -n install --auto-agree-with-licenses -t pattern x11 gnome; zypper -n install --auto-agree-with-licenses xrdp;yast users add username=suse password=suse; service xrdp start; chkconfig --level 35 xrdp on
